@@ -83,9 +83,9 @@ model1 = lm(weight~feed+speed+sex, data=chickenData)
 anova(model1)
 ```
 
+The variance table shows that only feed affects chicken weight.
 
 ###  Conclusions  -- which variables affect chicken weight?
 
-
-
+It appears that feed was the only variable that had any effect on chicken weight.
 
