@@ -59,8 +59,6 @@ It appears that male chickens weight slightly more than female chickens on avera
 
 
 
-
-
 Scatterplot of weight based on speed
 
 ```{r}
@@ -70,11 +68,13 @@ plot(weight~speed,data=chickenData)
 Speed does not appear to have any relationship to weight of the chicken.
 
 
-
-
 ### Numerical summary
 
+```{r}
+summary(chickenData)
+```
 
+This is a summary of all of the data in chickenData
 
 ### Inference -- Analysis of Variance
 
